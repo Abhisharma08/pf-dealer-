@@ -163,7 +163,7 @@ export default function LeadForm() {
                           <FormItem>
                             <FormLabel className="text-black">Name</FormLabel>
                             <FormControl>
-                              <Input placeholder="John Doe" {...field} className="bg-white" />
+                              <Input placeholder="Your Name" {...field} className="bg-white" />
                             </FormControl>
                             <FormMessage />
                           </FormItem>
@@ -189,7 +189,7 @@ export default function LeadForm() {
                           <FormItem>
                             <FormLabel className="text-black">Email</FormLabel>
                             <FormControl>
-                              <Input type="email" placeholder="john.doe@example.com" {...field} className="bg-white"/>
+                              <Input type="email" placeholder="username@example.com" {...field} className="bg-white"/>
                             </FormControl>
                             <FormMessage />
                           </FormItem>

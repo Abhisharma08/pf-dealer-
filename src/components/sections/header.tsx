@@ -14,14 +14,14 @@ export default function Header() {
     return (
         <section className="relative bg-black text-white h-[80vh] flex items-center justify-center">
              <Image
-                src="https://placehold.co/1920x1080.png"
+                src="https://res.cloudinary.com/ddqqlfsjp/image/upload/v1755593249/1920x1080_ahs9n3.jpg"
                 alt="Office chairs background"
                 data-ai-hint="office chairs"
                 fill
                 className="object-cover"
                 priority
             />
-            <div className="absolute inset-0 bg-black/60" />
+            <div className="absolute inset-0 bg-black/70" />
             <div className="relative container px-4 md:px-6 z-10">
                 <div className="flex flex-col justify-center space-y-4 text-center items-center">
                     <div className="space-y-2">

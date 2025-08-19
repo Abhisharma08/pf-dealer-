@@ -5,17 +5,17 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 
 const products = [
-    { name: "Premium Series", description: "Elegant high-back designs with knee-tilt mechanism and plush upholstery.", image: "https://placehold.co/400x300.png", hint: "office chair" },
-    { name: "Diamond Series", description: "Luxury and support with high-back design and premium finishes.", image: "https://placehold.co/400x300.png", hint: "office chair" },
-    { name: "Platinum Series", description: "Sleek low-back style in leatherette for a sophisticated edge.", image: "https://placehold.co/400x300.png", hint: "office chair" },
-    { name: "Gold Series", description: "Classic comfort with plush cushioning and timeless design.", image: "https://placehold.co/400x300.png", hint: "office chair" },
-    { name: "Silver Series", description: "Functional, stylish, and budget-friendly office seating.", image: "https://placehold.co/400x300.png", hint: "office chair" },
-    { name: "Ergo Series", description: "Adjustable synchro mechanism with 4-way arms for tailored comfort.", image: "https://placehold.co/400x300.png", hint: "ergonomic chair" },
-    { name: "Task Ergo Series", description: "Compact, efficient seating for focused work.", image: "https://placehold.co/400x300.png", hint: "task chair" },
-    { name: "Divinity Series", description: "Chrome frame and wood arm accents for an elevated look.", image: "https://placehold.co/400x300.png", hint: "office chair" },
-    { name: "Training Series", description: "Lightweight, functional seating for learning environments.", image: "https://placehold.co/400x300.png", hint: "training chair" },
-    { name: "Bistro Series", description: "Perfect for cafes, pantries, and breakout zones.", image: "https://placehold.co/400x300.png", hint: "cafe chair" },
-    { name: "Lounge Series", description: "Relaxed seating for reception and casual spaces.", image: "https://placehold.co/400x300.png", hint: "lounge chair" },
+    { name: "Premium Series", description: "Elegant high-back designs with knee-tilt mechanism and plush upholstery.", image: "https://res.cloudinary.com/ddqqlfsjp/image/upload/v1755601984/Premium_hfvwrb.jpg", hint: "office chair" },
+    { name: "Diamond Series", description: "Luxury and support with high-back design and premium finishes.", image: "https://res.cloudinary.com/ddqqlfsjp/image/upload/v1755593500/Diamond_pocozv.jpg", hint: "office chair" },
+    { name: "Platinum Series", description: "Sleek low-back style in leatherette for a sophisticated edge.", image: "https://res.cloudinary.com/ddqqlfsjp/image/upload/v1755593501/Platinum_dygzja.jpg", hint: "office chair" },
+    { name: "Gold Series", description: "Classic comfort with plush cushioning and timeless design.", image: "https://res.cloudinary.com/ddqqlfsjp/image/upload/v1755593501/Gold_wecthz.jpg", hint: "office chair" },
+    { name: "Silver Series", description: "Functional, stylish, and budget-friendly office seating.", image: "https://res.cloudinary.com/ddqqlfsjp/image/upload/v1755593501/Silver_nxhzjx.jpg", hint: "office chair" },
+    { name: "Ergo Series", description: "Adjustable synchro mechanism with 4-way arms for tailored comfort.", image: "https://res.cloudinary.com/ddqqlfsjp/image/upload/v1755593501/Ergo_uzffaz.jpg", hint: "ergonomic chair" },
+    { name: "Task Ergo Series", description: "Compact, efficient seating for focused work.", image: "https://res.cloudinary.com/ddqqlfsjp/image/upload/v1755593501/Task_Ergo_mmhw3q.jpg", hint: "task chair" },
+    { name: "Divinity Series", description: "Chrome frame and wood arm accents for an elevated look.", image: "https://res.cloudinary.com/ddqqlfsjp/image/upload/v1755593501/Divinity_goxi2f.jpg", hint: "office chair" },
+    { name: "Training Series", description: "Lightweight, functional seating for learning environments.", image: "https://res.cloudinary.com/ddqqlfsjp/image/upload/v1755593502/Training_ewmfc3.jpg", hint: "training chair" },
+    { name: "Bistro Series", description: "Perfect for cafes, pantries, and breakout zones.", image: "https://res.cloudinary.com/ddqqlfsjp/image/upload/v1755593500/Bitsro_ibuulh.jpg", hint: "cafe chair" },
+    { name: "Lounge Series", description: "Relaxed seating for reception and casual spaces.", image: "https://res.cloudinary.com/ddqqlfsjp/image/upload/v1755601914/lounge_m1xj7f.jpg", hint: "lounge chair" },
 ];
 
 export default function ProductRange() {

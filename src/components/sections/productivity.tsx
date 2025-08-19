@@ -17,7 +17,7 @@ export default function Productivity() {
                         alt="Ergonomic Seating"
                         className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full"
                         height="310"
-                        src="https://placehold.co/550x310.png"
+                        src="https://res.cloudinary.com/ddqqlfsjp/image/upload/v1755593320/550x310_xz6kvl.jpg"
                         data-ai-hint="ergonomic chair office"
                         width="550"
                     />
