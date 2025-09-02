@@ -1,4 +1,3 @@
-
 'use server';
 
 // HubSpot API docs:
@@ -58,7 +57,6 @@ async function findContactByEmail(email: string): Promise<string | null> {
     }
 }
 
-
 type ContactData = {
     name: string;
     email: string;
@@ -101,6 +99,10 @@ export async function saveOrUpdateContact(data: ContactData) {
     if (data.lookingFor) properties.looking_for = data.lookingFor;
     if (data.quantity) properties.required_quantity = data.quantity;
 
+    // ✅ Tag all contacts from this code path as "Dealer Page Lead"
+    // Make sure you've created a custom contact property in HubSpot:
+    // Settings → Data Management → Properties → Create (Object: Contact, Label: "Lead Type", internal name: lead_type)
+    properties.lead_type = 'Dealer Page Lead';
 
     try {
         let response;
